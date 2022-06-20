@@ -78,13 +78,8 @@
     }
 
     .nav-top a{
-        color: #1d570f;
         line-height: 100px;
         font-size: 30px;
-    }
-
-    .nav-top a:hover{
-        border-bottom: 4px solid #08420b;
     }
 
     .open-menu,.close-menu{
