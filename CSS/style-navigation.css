@@ -37,7 +37,7 @@
 }
 
 .nav-top a{
-    color: #86392A;
+    color: #1d570f;
     font-size: 15px;
     font-weight: 300;
     text-transform: uppercase;
@@ -45,7 +45,7 @@
 }
 
 .nav-top a:hover{
-    border-bottom: 4px solid #184349;
+    border-bottom: 4px solid #08420b;
 }
 
 .open-menu,.close-menu{
@@ -53,7 +53,7 @@
 }
 
 .selected{
-    border-bottom: 4px solid #184349;
+    border-bottom: 4px solid #035e08;
 }
 
 @media(max-width: 950px){
