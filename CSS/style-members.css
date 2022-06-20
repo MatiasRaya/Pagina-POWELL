@@ -1,0 +1,142 @@
+.team{
+    padding: 40px;
+    background: aquamarine;
+}
+
+.text-4{
+    margin-top: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.text-5{
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.text-5 p{
+    color: #1B4B51;
+    font-size: 30px;
+}
+
+.text-6{
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.text-6 a{
+    color: #823828;
+    font-size: 25px;
+}
+
+.members{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.member{
+    padding: 10px;
+}
+
+/* .members{
+    padding: 3%;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 20px;
+}
+
+.member{
+    background: #E3DAC9;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+
+/*.marta{
+    padding-top: 60px;
+}
+
+.image-mem img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #797979;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}*/
+
+.text-7{
+    margin-top: -47px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background: hsla(0, 0%, 80%, 0.608);
+    text-align: center;
+}
+
+.linkedin-mem{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.lnkid-mem h4{
+    color: #000;
+    margin-top: 5px;
+}
+
+.information-mem{
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.img-linkedin{
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    text-decoration: #0E76A8;
+    background: transparent;
+    margin: auto;
+    margin-top: 20px;
+}
+
+@media (min-width: 950px){
+    .text-4{
+        line-height: 35px;
+    }
+
+    .text-5 p{
+        font-size: 50px;
+    }
+
+    .text-6 a{
+        font-size: 30px;
+    }
+
+    .text-6 a:hover{
+        color: #823828;
+        text-decoration: underline;
+    }
+
+    .members{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        text-align: center;
+    }
+
+    .member{
+        padding: 10px;
+    }
+
+    /* .members{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 70px;
+        padding-bottom: 80px;
+    } */
+}

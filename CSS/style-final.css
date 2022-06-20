@@ -1,0 +1,17 @@
+.text-final{
+    padding: 3px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: small;
+    font-weight: 550;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.final a{
+    color: #3498DB;
+    font-weight: bold;
+    font-style: italic;
+    font-size: medium;
+}
