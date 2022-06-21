@@ -1,18 +1,18 @@
 .our-work{
-    padding: 40px;
     background: cadetblue;
+    padding: 20px;
 }
 
-
 .container-slide{
-    width: 90%;
-    min-height: 500px;
-    max-width: 1200px;
+    width: 100%;
+    min-height: 400px;
+    max-width: 950px;
     margin: 0 auto;
     overflow: hidden;
 }
 
 .slider{
+    background: violet;
     display: grid;
     grid-template-columns: 50px 1fr 50px;
     align-items: center;
@@ -21,7 +21,7 @@
 
 .arrow{
     cursor: pointer;
-    width: 90%;
+    width: 40%;
     font-size: 30px;
     box-shadow: tomato;
 }
@@ -31,6 +31,7 @@
 }
 
 .body-slider{
+    background: yellow;
     grid-column: 2/3;
     grid-row: 1/2;
     pointer-events: none;
@@ -42,16 +43,17 @@
 .text-slider{
     max-width: 600px;
     margin-right: 100px;
+    text-align: center;
 }
 
 .text-9{
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
 .review{
     font-weight: 300;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1.7;
 }
 
@@ -64,6 +66,7 @@
 }
 
 .bars{
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -79,4 +82,18 @@
 
 .active{
     background-color: coral;
+}
+
+@media (min-width: 950px){
+    .container-slide{
+        max-width: 1200px;
+    }
+    
+    .text-9{
+        font-size: 2.5rem;
+    }
+    
+    .review{
+        font-size: 20px;
+    }
 }

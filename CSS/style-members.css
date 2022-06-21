@@ -1,92 +1,67 @@
 .team{
     padding: 40px;
-    background: aquamarine;
+    background: yellow;
 }
 
 .text-4{
-    margin-top: 10px;
+    padding-bottom: 20px;
     text-align: center;
     line-height: 20px;
+    background: tomato;
 }
 
 .text-5{
-    margin-top: 10px;
-    line-height: 30px;
-}
-
-.text-5 p{
-    color: #1B4B51;
+    padding-top: 10px;
     font-size: 30px;
+    line-height: 30px;
+    color: #1b4b51;
 }
 
 .text-6{
-    margin-top: 30px;
-    line-height: 30px;
-}
-
-.text-6 a{
-    color: #823828;
-    font-size: 25px;
-}
-
-.members{
     padding-top: 30px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-}
-
-.member{
-    padding: 10px;
-}
-
-/* .members{
-    padding: 3%;
-    margin-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
+    font-size: 25px;
     line-height: 20px;
 }
 
-.member{
-    background: #E3DAC9;
-    align-items: center;
-    justify-content: space-evenly;
-} */
-
-/*.marta{
-    padding-top: 60px;
+.text-6 a{
+    color: #638228;
 }
 
-.image-mem img{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border: 3px solid #797979;
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-}*/
-
-.text-7{
-    margin-top: -47px;
-    padding-top: 60px;
-    padding-bottom: 30px;
-    background: hsla(0, 0%, 80%, 0.608);
+.members{
+    background: tan;
+    padding: 30px 50px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
     text-align: center;
 }
 
-.linkedin-mem{
-    font-size: 20px;
-    text-decoration: none;
+.member{
+    background: springgreen;
+    padding: 10px 25px;
 }
 
-.lnkid-mem h4{
-    color: #000;
+.img-member img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid salmon;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.text-7{
+    margin-top: -88px;
+    padding: 90px 20px 10px;
+    background: skyblue;
+}
+
+.linkedin-mem{
     margin-top: 5px;
+    font-size: 20px;
+    color: #000000;
 }
 
 .information-mem{
@@ -98,8 +73,6 @@
     text-decoration: none;
     width: 20px;
     height: 20px;
-    text-decoration: #0E76A8;
-    background: transparent;
     margin: auto;
     margin-top: 20px;
 }
@@ -109,34 +82,18 @@
         line-height: 35px;
     }
 
-    .text-5 p{
+    .text-5{
         font-size: 50px;
     }
 
-    .text-6 a{
+    .text-6{
         font-size: 30px;
     }
 
-    .text-6 a:hover{
-        color: #823828;
-        text-decoration: underline;
-    }
-
     .members{
+        padding: 30px 70px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 40px;
-        text-align: center;
+        gap: 70px;
     }
-
-    .member{
-        padding: 10px;
-    }
-
-    /* .members{
-        display: flex;
-        justify-content: space-around;
-        padding-top: 70px;
-        padding-bottom: 80px;
-    } */
 }
