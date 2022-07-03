@@ -16,7 +16,7 @@
     display: grid;
     grid-template-columns: 50px 1fr 50px;
     align-items: center;
-    gap: 1em;
+    /* gap: 1em; */
 }
 
 .arrow{
@@ -32,6 +32,9 @@
 
 .body-slider{
     background: yellow;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
     grid-column: 2/3;
     grid-row: 1/2;
     pointer-events: none;
@@ -43,7 +46,6 @@
 .text-slider{
     max-width: 600px;
     margin-right: 100px;
-    text-align: center;
 }
 
 .text-9{
@@ -84,16 +86,24 @@
     background-color: coral;
 }
 
-@media (min-width: 950px){
-    .container-slide{
-        max-width: 1200px;
+@media (max-width: 950px){
+    .body-slider{
+        grid-template-columns: 25px 1fr 25px;
+        display: flex;
+        flex-direction: column;
     }
     
-    .text-9{
-        font-size: 2.5rem;
+    .picture{
+        grid-row: 1/2;
     }
-    
-    .review{
-        font-size: 20px;
+
+    .text-slider{
+        text-align: center;
+        padding-left: 20%;
+    }
+
+    .img-slider{
+        width: 210px;
+        height: 210px;
     }
 }
