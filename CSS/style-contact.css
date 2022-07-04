@@ -23,36 +23,37 @@
     padding: 10px;
 }
 
+.email-conteiner{
+    padding: 20px 15px 10px 15px;
+    display: block;
+}
+
 .email-contact{
-    background: seagreen;
     margin-top: 20px;
+    background: sienna;
     display: flex;
 }
 
-.img-email{
+.img-email-contact{
     padding: 5px 0 0 5px;
     width: 40px;
     height: 40px;
 }
 
-.text-email{
+.text-email-contact{
     padding-left: 15px;
 }
 
-.text-email h4{
+.text-email-contact h4{
     font-size: 18px;
 }
 
-.text-email a{
-    font-size: 16px;
+.text-email-contact a{
+    font-size: 13px;
 }
 
 .linkedin-conteiner{
-    margin-top: 20px;
-    padding: 20px 30px 10px 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    padding: 20px 30px 10px 30px;
 }
 
 .linkedin-contact{
@@ -78,6 +79,74 @@
     font-size: 16px;
 }
 
+.telephone-conteiner{
+    padding: 20px 30px 10px 30px;
+    display: block;
+}
+
+.telephone-contact{
+    background: sienna;
+    display: flex;
+}
+
+.margin-extra{
+    margin-top: 20px;
+}
+
+.img-telephone-contact{
+    padding: 5px 0 0 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.text-telephone-contact{
+    padding-left: 15px;
+}
+
+.text-telephone-contact h4{
+    font-size: 18px;
+}
+
+.text-telephone-contact a{
+    font-size: 16px;
+}
+
+.direction-conteiner{
+    padding: 20px 30px 10px 30px;
+}
+
+.direction-maps{
+    background: black;
+}
+
+.direction-contact{
+    background: sienna;
+    display: flex;
+    text-align: center;
+}
+
+.img-direction-contact{
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 50%;
+    left: 5%;
+    transform: translate(0%, 40%);
+}
+
+.text-direction-contact{
+    padding-left: 15px;
+}
+
+.text-direction-contact h4{
+    font-size: 18px;
+}
+
+.text-direction-contact a{
+    font-size: 14px;
+}
+
 .nav-bar{
     background: cornflowerblue;
     margin-top: 20px;
@@ -88,10 +157,11 @@
     margin-bottom: 30px;
     font-size: 40px;
     line-height: 40px;
+    text-align: center;
 }
 
 .menu-nav ul li{
-    padding: 0 10px 10px 0;
+    padding: 10px 10px 10px 10px;
     display: inline-table;
 }
 
@@ -103,9 +173,8 @@
 
 .text-8{
     background: royalblue;
-    margin-left: -10px;
     margin-bottom: 20px;
-    font-size: 40px;
+    font-size: 37px;
     text-align: center;
 }
 
@@ -203,6 +272,38 @@
         padding-left: 40px;
         padding-right: 40px;
     }
+
+    .text-email-contact a{
+        font-size: 16px;
+    }
+
+    .telephone-conteiner{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    
+    .telephone-contact{
+        background: sienna;
+        display: flex;
+    }
+
+    .margin-extra{
+        margin-top: 0px;
+    }
+
+    .direction-conteiner{
+        display: flex;
+    }
+    
+    .img-direction-contact{
+        top: 30%;
+    }
+    
+    .text-direction-contact{
+        position: relative;
+        top: 30%;
+    }
     
     .menu-nav a{
         font-size: 18px;
@@ -210,6 +311,11 @@
 
     .menu-nav a:hover{
         background: #BB533E;
+    }
+
+    .contact-2{
+        margin-top: 150px;
+        margin-bottom: 140px;
     }
 
     .text-8{
