@@ -11,7 +11,7 @@ function positionSlide(n) {
 
 setInterval(function time() {
     viewSlide(index+=1)
-},2000);
+},4000);
 
 function viewSlide(n) {
     let i;
@@ -22,13 +22,14 @@ function viewSlide(n) {
         index = 1;
     }
     if(n < 1) {
-        index = slides.length();
+        index = slides.length;
     }
     for(i = 0; i < slides.length; i++) {
         slides[i].style.display = 'none';
     }
     for(i = 0; i < bars.length; i++) {
         bars[i].className = bars[i].className.replace(" active", "");
+        n = index;
     }
 
     slides[index-1].style.display = 'flex';
