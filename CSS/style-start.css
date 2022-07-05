@@ -2,13 +2,11 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    background: grey;
     color: #ffffff;
     padding: 40px;
 }
 
 .reception{
-    background: steelblue;
     text-align: center;
     padding: 0 0 25px;
 }
@@ -27,7 +25,6 @@
 }
 
 .content-1{
-    background: chocolate;
     text-align: center;
     letter-spacing: 1px;
     font-weight: 300;
@@ -46,10 +43,6 @@
 }
 
 @media (min-width: 950px){
-    .start{
-        padding-top: 0;
-    }
-
     .reception{
         text-align: start;
         padding-left: 80px;
@@ -79,6 +72,4 @@
         padding: 30px 250px 0px;
         font-size: 17px;
     }
-
-
 }

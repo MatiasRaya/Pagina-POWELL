@@ -1,11 +1,9 @@
 .contact{
-    background: steelblue;
     padding: 40px;
     color: #ffffff;
 }
 
 .contact-1{
-    background: slateblue;
     padding-top: 20px;
 }
 
@@ -19,7 +17,6 @@
 }
 
 .link-contact{
-    background: sandybrown;
     padding: 10px;
 }
 
@@ -30,7 +27,6 @@
 
 .email-contact{
     margin-top: 20px;
-    background: sienna;
     display: flex;
 }
 
@@ -57,7 +53,6 @@
 }
 
 .linkedin-contact{
-    background: sienna;
     display: flex;
 }
 
@@ -85,7 +80,6 @@
 }
 
 .telephone-contact{
-    background: sienna;
     display: flex;
 }
 
@@ -115,12 +109,7 @@
     padding: 20px 30px 10px 30px;
 }
 
-.direction-maps{
-    background: black;
-}
-
 .direction-contact{
-    background: sienna;
     display: flex;
     text-align: center;
 }
@@ -148,7 +137,6 @@
 }
 
 .nav-bar{
-    background: cornflowerblue;
     margin-top: 20px;
     padding: 10px;
 }
@@ -160,26 +148,29 @@
     text-align: center;
 }
 
+.menu-nav ul{
+    background: rgba(13, 75, 1, 0.315);
+    align-items: center;
+    justify-content: center;
+}
+
 .menu-nav ul li{
     padding: 10px 10px 10px 10px;
     display: inline-table;
 }
 
 .contact-2{
-    background: chartreuse;
     margin-top: 50px;
     padding: 20px;
 }
 
 .text-8{
-    background: royalblue;
     margin-bottom: 20px;
     font-size: 37px;
     text-align: center;
 }
 
 .form-cont{
-    background: cadetblue;
     margin-top: 30px;
 }
 
@@ -284,7 +275,6 @@
     }
     
     .telephone-contact{
-        background: sienna;
         display: flex;
     }
 
@@ -304,13 +294,17 @@
         position: relative;
         top: 30%;
     }
+
+    .menu-nav{
+        padding-left: 80px;
+    }
     
     .menu-nav a{
         font-size: 18px;
     }
 
     .menu-nav a:hover{
-        background: #BB533E;
+        background: hsl(114, 97%, 15%);
     }
 
     .contact-2{
@@ -339,7 +333,9 @@
     }
 
     .text-verification:hover{
-        background: #BB533E;
+        /* color: hsl(115, 85%, 10%); */
+        /* background: hsla(81, 81%, 75%, 0.171); */
+        color: hsla(81, 93%, 62%, 0.596);
     }
 
     .form-btn{
@@ -348,6 +344,6 @@
     }
 
     .form-btn:hover{
-        background: #28676E;
+        background: #286e45;
     }
 }

@@ -1,5 +1,5 @@
 .top-navigation{
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 1%, 50%);
     position: fixed;
     left: 0;
     top: 0;
@@ -37,7 +37,7 @@
 }
 
 .nav-top a{
-    color: #1d570f;
+    color: #0b2903;
     font-size: 15px;
     font-weight: 300;
     text-transform: uppercase;
@@ -45,7 +45,7 @@
 }
 
 .nav-top a:hover{
-    border-bottom: 4px solid #08420b;
+    border-bottom: 4px solid #085e0c;
 }
 
 .open-menu,.close-menu{
@@ -53,7 +53,7 @@
 }
 
 .selected{
-    border-bottom: 4px solid #035e08;
+    border-bottom: 4px solid #024606;
 }
 
 @media(max-width: 950px){
@@ -65,12 +65,16 @@
         top: 0;
         width: 100%;
         align-items: center;
-        background-color: #66705d;
+        background-color: hsl(0, 1%, 50%);
         height: 100%;
         overflow-y: auto;
         opacity: 0;
         pointer-events: none;
         transition: opacity 0.1s;
+    }
+
+    .logo-img img{
+        margin-top: -10px;
     }
 
     .nav-top li{
@@ -91,7 +95,7 @@
 
     .close-menu{
         align-self: flex-end;
-        padding: 26px 66px;
+        padding: 29px 94px;
     }
 
     .menu_opened{
