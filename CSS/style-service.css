@@ -20,6 +20,10 @@
     color: #ffffff;
 }
 
+.left-image{
+    flex-direction: row-reverse;
+}
+
 .text-service{
     margin: auto;
     padding: 25px;
@@ -42,9 +46,17 @@
     height: auto;
 }
 
+.second-image{
+    margin-left: 10px;
+}
+
 @media (max-width: 950px){
     .service-title{
         font-size: 30px;
+    }
+
+    .proyect-conteiner{
+        display: block;
     }
 
     .title-proyect{
@@ -56,6 +68,17 @@
     }
 
     .img-service{
-        display: none;
+        display: block;
+        text-align: center;
+    }
+    
+    .img-service img{
+        width: 300px;
+        height: auto;
+    }
+
+    .second-image{
+        margin-left: 0px;
+        margin-top: 10px;
     }
 }
