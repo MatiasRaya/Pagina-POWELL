@@ -102,6 +102,10 @@
         margin-bottom: 30px;
     }
 
+    .review{
+        text-align: center;
+    }
+
     .img-slider{
         width: 150px;
         height: 150px;
