@@ -21,7 +21,7 @@
 }
 
 .email-conteiner{
-    padding: 20px 30px 10px 30px;
+    padding: 20px 0px 10px 0px;
 }
 
 .email-contact{
@@ -31,7 +31,7 @@
 .img-email-contact{
     padding: 5px 0 0 5px;
     width: 40px;
-    height: 40px;
+    height:  40px;
 }
 
 .text-email-contact{
@@ -39,11 +39,11 @@
 }
 
 .text-email-contact h4{
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .text-email-contact a{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .linkedin-conteiner{
@@ -259,22 +259,16 @@
         padding-right: 40px;
     }
 
-    .text-email-contact a{
-        font-size: 16px;
+    .email-conteiner{
+        padding: 20px 30px 10px 30px;
     }
 
-    .telephone-conteiner{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
+    .text-email-contact a{
+        font-size: 16px;
     }
     
     .telephone-contact{
         display: flex;
-    }
-
-    .margin-extra{
-        margin-top: 0px;
     }
 
     .direction-conteiner{
