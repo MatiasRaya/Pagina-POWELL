@@ -115,13 +115,10 @@
 }
 
 .img-direction-contact{
+    margin: auto;
     padding: 5px;
     width: 60px;
     height: 60px;
-    position: relative;
-    top: 50%;
-    left: 5%;
-    transform: translate(0%, 40%);
 }
 
 .text-direction-contact{
@@ -285,14 +282,17 @@
     .direction-conteiner{
         display: flex;
     }
+
+    .direction-contact{
+        padding-left: 8px;
+    }
     
     .img-direction-contact{
-        top: 30%;
+        margin: auto;
     }
     
     .text-direction-contact{
-        position: relative;
-        top: 30%;
+        margin: auto;
     }
 
     .menu-nav{
@@ -333,8 +333,6 @@
     }
 
     .text-verification:hover{
-        /* color: hsl(115, 85%, 10%); */
-        /* background: hsla(81, 81%, 75%, 0.171); */
         color: hsla(81, 93%, 62%, 0.596);
     }
 
