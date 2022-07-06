@@ -7,7 +7,7 @@
     padding-top: 20px;
 }
 
-.img-2 p{
+.img-2{
     text-align: center;
 }
 
@@ -21,12 +21,10 @@
 }
 
 .email-conteiner{
-    padding: 20px 15px 10px 15px;
-    display: block;
+    padding: 20px 30px 10px 30px;
 }
 
 .email-contact{
-    margin-top: 20px;
     display: flex;
 }
 
@@ -45,7 +43,7 @@
 }
 
 .text-email-contact a{
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .linkedin-conteiner{
@@ -252,7 +250,7 @@
     }
 
     .img-2 img{
-        width: 400px;
+        width: 350px;
         height: auto;
     }
 
