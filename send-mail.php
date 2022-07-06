@@ -18,7 +18,7 @@ if(isset($_POST['submit'])){
     $mensaje .= "Más detalles sobre la consulta: " . $detalles . " \r\n";
     $mensaje .= "Enviado el " . date('d/m/Y', time());
 
-    // $para = 'grt.rayatonetti@gmail.com';
+    // $para = 'danielpowell.estudio@gmail.com';
     $asunto = 'Mensaje de la página del estudio';
 
     mail($para, utf8_decode($asunto), utf8_decode($mensaje), $header);
