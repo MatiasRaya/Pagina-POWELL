@@ -60,7 +60,8 @@
     }
 
     .clients-list li:hover img{
-        transform: scale(1.3);
+        /* transform: scale(1.3); */
+        width: 130px;
     }
     
     .clients-list li:hover a{
@@ -72,20 +73,40 @@
     .more-converflex img{
         width: 180px;
     }
+
+    .more-converflex a:hover img{
+        width: 234px;
+    }
     
     .more-cartocor img{
         width: 200px;
+    }
+
+    .more-cartocor a:hover img{
+        width: 260px;
     }
     
     .more-alpros img{
         width: 250px;
     }
+
+    .more-alpros a:hover img{
+        width: 325px;
+    }
     
     .more-rdc img{
         width: 150px;
     }
+
+    .more-rdc a:hover img{
+        width: 195px;
+    }
     
     .more-capex img{
         width: 180px;
+    }
+
+    .more-capex a:hover img{
+        width: 234px;
     }
 }
