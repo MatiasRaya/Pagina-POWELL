@@ -34,6 +34,7 @@
 }
 
 .description-proyect{
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -75,6 +76,7 @@
     .img-service img{
         width: 300px;
         height: auto;
+        object-fit: cover;
     }
 
     .second-image{
