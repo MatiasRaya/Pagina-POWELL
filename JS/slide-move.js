@@ -11,7 +11,7 @@ function positionSlide(n) {
 
 setInterval(function time() {
     viewSlide(index+=1)
-},4000);
+},2000);
 
 function viewSlide(n) {
     let i;
