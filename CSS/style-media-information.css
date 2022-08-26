@@ -21,11 +21,8 @@
 }
 
 .title-newspaper{
+    margin-bottom: 20px;
     text-align: center;
-}
-
-.title-newspaper a{
-    color: darkgreen;
 }
 
 .portada-newspaper{
