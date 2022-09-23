@@ -61,6 +61,7 @@
 }
 
 .text-linkedin-contact{
+    margin-top: 7px;
     padding-left: 15px;
 }
 
@@ -69,6 +70,33 @@
 }
 
 .text-linkedin-contact a{
+    font-size: 16px;
+}
+
+.instagram-conteiner{
+    padding: 20px 30px 10px 30px;
+}
+
+.instagram-contact{
+    display: flex;
+}
+
+.img-instagram-contact{
+    padding: 5px 0 0 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.text-instagram-contact{
+    margin-top: 7px;
+    padding-left: 15px;
+}
+
+.text-instagram-contact h4{
+    font-size: 18px;
+}
+
+.text-instagram-contact a{
     font-size: 16px;
 }
 
